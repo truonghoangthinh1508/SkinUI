@@ -1,0 +1,32 @@
+<ion-content padding id="page2">
+  <div class="spacer" style="height:100px;" id="login-spacer2"></div>
+  <form id="login-form1">
+    <ion-list id="login-list1">
+      <ion-item id="login-input1">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input type="email" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label>
+          Password
+        </ion-label>
+        <ion-input type="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="height:40px;" id="login-spacer1"></div>
+    <button id="login-button1" ion-button color="stable" block on-click="goToPage1()">
+      Log in
+    </button>
+  </form>
+  <button id="login-button5" ion-button color="positive" block on-click="goToPage1()">
+    Facebook
+  </button>
+  <button id="login-button6" ion-button color="assertive" block on-click="goToPage1()">
+    Google
+  </button>
+  <button id="login-button4" ion-button color="balanced" block on-click="goToSignup()">
+    Create an account
+  </button>
+</ion-content>
